@@ -11,16 +11,12 @@ import java.net.URL;
 
 public class Application extends Screen
 {
-
     Button knop1;
     TextField tekstvak;
     Label label;
     String tekst;
 
-
-
     public void init() {
-
     }
 
     public void paint(Graphics g)
@@ -39,7 +35,7 @@ public class Application extends Screen
         g.drawImage(LoginGalaxx.csgo, 120, 120, 300, 120, null);
         g.drawImage(LoginGalaxx.gta, 120, 260, 300, 120, null);
         g.drawImage(LoginGalaxx.cityskylines, 120, 400, 300, 120, null);
-        g.drawImage(LoginGalaxx.despacito, 120, 540, 300, 120, null);
+        g.drawImage(LoginGalaxx.roblox, 120, 540, 300, 120, null);
         g.drawImage(LoginGalaxx.uch, 120, 680, 300, 120, null);
         g.setColor(Color.white);
         g.drawString("Conter Stirk: Globaal offensive", 450, 180);
